@@ -1,0 +1,1 @@
+select u.userid,collect(u.id) as idArray from `userTable` u group by userid
